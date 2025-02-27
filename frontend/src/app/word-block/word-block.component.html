@@ -1,0 +1,7 @@
+<div
+  class="bg-purple-300 w-[150px] h-[50px] flex justify-center items-center rounded-md cursor-pointer"
+  [ngClass]="isSelected ? 'bg-purple-500' : null"
+  (click)="toggleSelected()"
+>
+  <p>{{ word.value | uppercase }}</p>
+</div>

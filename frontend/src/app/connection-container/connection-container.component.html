@@ -1,0 +1,12 @@
+<div class="flex flex-col items-center">
+  <h1 class="text-3xl">Yhtymät</h1>
+  <div class="mt-10 grid grid-cols-4 grid-rows-4 gap-4">
+    @for (word of shuffledWords(); track word.id) {
+      <app-word-block
+        [word]="word"
+        [totalSelectedCount]="selectedWords.length"
+        (selected)="updateSelectedWords($event)"
+      />
+    }
+  </div>
+</div>

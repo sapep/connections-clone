@@ -1,0 +1,104 @@
+[
+  {
+    "connectionType": "ajoneuvoja",
+    "words": [
+      {
+        "value": "auto"
+      },
+      {
+        "value": "mopo"
+      },
+      {
+        "value": "traktori"
+      },
+      {
+        "value": "polkupyörä"
+      }
+    ]
+  },
+  {
+    "connectionType": "vaatteita",
+    "words": [
+      {
+        "value": "pipo"
+      },
+      {
+        "value": "villasukat"
+      },
+      {
+        "value": "takki"
+      },
+      {
+        "value": "paita"
+      }
+    ]
+  },
+  {
+    "connectionType": "ruokia",
+    "words": [
+      {
+        "value": "maito"
+      },
+      {
+        "value": "seitan"
+      },
+      {
+        "value": "sushi"
+      },
+      {
+        "value": "kebab"
+      }
+    ]
+  },
+  {
+    "connectionType": "kerros_",
+    "words": [
+      {
+        "value": "hampurilainen"
+      },
+      {
+        "value": "talo"
+      },
+      {
+        "value": "voileipä"
+      },
+      {
+        "value": "sänky"
+      }
+    ]
+  },
+  {
+    "connectionType": "disney hahmojen sukunimiä",
+    "words": [
+      {
+        "value": "ankka"
+      },
+      {
+        "value": "hiiri"
+      },
+      {
+        "value": "hopo"
+      },
+      {
+        "value": "peloton"
+      }
+    ]
+  },
+  {
+    "connectionType": "_sana",
+    "words": [
+      {
+        "value": "sala"
+      },
+      {
+        "value": "yhdys"
+      },
+      {
+        "value": "taika"
+      },
+      {
+        "value": "avain"
+      }
+    ]
+  }
+]
