@@ -43,6 +43,7 @@ export class ConnectionContainerComponent implements OnInit {
     } else if (this.selectedWords.length < 4) {
       this.selectedWords.push(word);
 
+      // TODO: request to backend to verify the connection
       if (this.selectedWords.length === 4) {
         const allWordsHaveSameConnection = this.selectedWords
           .every(word => word.connectionId === this.selectedWords[0].connectionId);
